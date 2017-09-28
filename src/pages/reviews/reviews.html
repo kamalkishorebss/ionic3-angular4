@@ -1,0 +1,91 @@
+<!--
+  Generated template for the ReviewsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> <span style="color:#FD5C2C;text-align:center;">Reviews</span></ion-title> 
+     
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <div style="border-bottom: 2px solid #FD5C2C;">
+      <ion-segment [(ngModel)]="review">
+        <ion-segment-button value="all">
+          All
+        </ion-segment-button>
+        <ion-segment-button value="pending">
+          Pending
+        </ion-segment-button>        
+      </ion-segment>
+    </div>
+    <div [ngSwitch]="review">
+	    <div *ngSwitchCase="'all'">
+	    <ion-card *ngFor="let revw of Review">
+	      <ion-card-content>	
+	       <div class="allItem" (click)="redtailPage(revw.id)">
+	      	<div class="allstar">
+	      	 <p class="all">{{revw.product_name}}</p>	<p class="star">
+	          <rating [(ngModel)]="rate" readOnly="false" max="5" emptyStarIconName="star-outline" 
+               halfStarIconName="star-half" starIconName="star" nullable="false" (ngModelChange)="onModelChange($event)">
+              </rating>
+             </p>
+            </div>
+	      	<div class="allItem-sku"><p>Sku:{{revw.sku}}</p></div>
+	      	<div class="allItem-name"><p>{{revw.name}}</p></div>
+	      	<div class="allItem-desc"><p>{{revw.review}}</p></div>
+	      	<div class="itemstatus"><p>Status : {{revw.status}}</p></div>	          	
+	       </div>
+	       
+	      </ion-card-content>
+	     </ion-card>
+		</div>
+		                      
+	    <div *ngSwitchCase="'pending'"> 
+	        <ion-card *ngFor="let revw of penReview">
+            <ion-card-content>  
+             <div class="allItem" (click)="redtailPage(revw.id)">
+              <div class="allstar">
+               <p class="all">{{revw.product_name}}</p> <p class="star">
+                <rating [(ngModel)]="rate" readOnly="false" max="5" emptyStarIconName="star-outline" 
+                   halfStarIconName="star-half" starIconName="star" nullable="false" (ngModelChange)="onModelChange($event)">
+                  </rating>
+                 </p>
+                </div>
+              <div class="allItem-sku"><p>Sku:{{revw.sku}}</p></div>
+              <div class="allItem-name"><p>{{revw.name}}</p></div>
+              <div class="allItem-desc"><p>{{revw.review}}</p></div>
+              <div class="itemstatus"><p>Status : {{revw.status}}</p></div>             
+             </div>
+             
+            </ion-card-content>
+           </ion-card> 
+		  </div>		                           
+    </div>  
+</ion-content>
+<style type="text/css">
+ul {
+  padding: 0px;
+ 
+  &.rating li {
+    padding: 5px  !important;
+    background: none;
+    color: #ffb400;
+ 
+    ion-icon {
+      font-size: 30px;
+    }
+  }
+}   
+
+.content-md{
+  background: #d2d2d2  !important;
+}
+</style>

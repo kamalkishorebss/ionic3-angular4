@@ -1,0 +1,44 @@
+<!--
+  Generated template for the SettingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title><span style=" margin-left: 70px;color: #FD5C2C;">Setting</span></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div class="setting-page">      
+        
+        <form  method="post" class="setting-form">
+            <div class="setting-form url">
+            	<label>Magento Store Url</label>
+                <input type="text" name="url"  placeholder="Enter magento site url">
+            </div>
+            <div class="setting-form pages">
+            	<label>Pagination Limit</label>
+                <input type="pages" name="pages"  placeholder="Pageniation limit">
+            </div>
+
+            <div class="setting-form date">
+            	<label>Date Format</label>
+                <input type="text" name="date" placeholder="DD-MM-YYYY">
+            </div>
+
+            <div class="Submit-action">
+                <button class="Submit-btn" (click)="redirect()">
+                Submit
+               </button>  
+            </div>
+        </form>
+
+                           
+    </div>
+    <p style="color:#FD5C2C;text-align:center;">Magento2.1.2  Admin  App</p>
+</ion-content>

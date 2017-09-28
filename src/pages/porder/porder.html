@@ -1,0 +1,85 @@
+<!--
+  Generated template for the PorderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title><span style="color:#FD5C2C;text-align:center;">Purchase Order Detail</span></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div style="border-bottom: 2px solid #FD5C2C;">
+      <ion-segment [(ngModel)]="cat">
+        <ion-segment-button value="Order-Item">
+          Order Item
+        </ion-segment-button>
+        <ion-segment-button value="PO-Detail">
+          PO Detail
+        </ion-segment-button>
+        <ion-segment-button value="Stock-Received">
+          Stock Received
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+
+    <div [ngSwitch]="cat">
+	    <div *ngSwitchCase="'Order-Item'">
+	    	<ion-card>
+	    	<ion-card-header><u style="color:#FD5C2C">T-Shirt</u></ion-card-header>
+	        <ion-card-content> 
+	          <p style="text-align:left"><strong>SKU</strong> : GTDX</p><hr>
+              <p style="text-align:left"><strong>Unit Cost</strong> : $200.00</p><hr>
+              <p style="text-align:left"><strong>Order Qty</strong> : 2</p>
+	        </ion-card-content>
+	        </ion-card> 
+	    </div>
+	                      
+	    <div *ngSwitchCase="'PO-Detail'"> 
+	    	<ion-card>
+	    	<ion-card-header><div class="PO-detail">PO-10000006 | 2017-10-07 10:6:29</div></ion-card-header>
+	        </ion-card>
+	        <ion-card>
+		        <ion-card-content> 
+	                
+	                <div class="supInfo">
+	                <h3>Supplier Info</h3>
+
+	                 <p><strong>Name  </strong>: AlexPandian</p><hr>
+	                 <p><strong>Phone  </strong>: 9814752247</p><hr>
+	                 <p><strong>Email  </strong>: Alex@gmail.com</p>
+	                </div>
+
+	                <div class="addInfo">
+	                <h3>Additional Info</h3>
+	                 <p><strong>Po Status </strong>: Completed</p><hr>
+	                 <p><strong>Created At </strong>: 2016-10-12</p><hr>
+	                 <p><strong>Sales  </strong>: N/A</p><hr>
+	                 <p><strong>Required Date </strong>: N/A</p><hr>
+	                 <p><strong>Shipment Info </strong>: N/A</p><hr>
+	                 <p><strong>Payment  </strong>: N/A</p><hr>
+	                 <p><strong>Initial Total  </strong>: $2000.00</p>
+	                </div>
+                
+		        </ion-card-content>
+	        </ion-card> 
+	      	
+	        
+	    </div>                       
+
+	      <div *ngSwitchCase="'Stock-Received'">
+	             kkkkk                     
+	      </div> 
+    </div>
+
+</ion-content>
+<style type="text/css">
+.content-md{
+  background: #d2d2d2  !important;
+}
+</style>

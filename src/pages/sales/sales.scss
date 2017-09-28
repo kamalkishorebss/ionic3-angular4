@@ -1,0 +1,37 @@
+page-sales {
+
+}
+.orderDate {
+    width: 100%;
+    float: left;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 1px 0 0 0;
+    background: linear-gradient(white,#dcd9d9);
+}
+
+.ord-info {
+    float: left;
+    width: 45%;
+    margin-bottom:5px;
+}
+.ord-info p {
+    margin: 0px;
+    font-size: 14px;
+}
+.price-time {
+    width: 45%;
+    font-size: small;
+    float: left;
+    margin-bottom:5px;
+}
+.price-time p {
+    margin: 0px;
+    font-size: 14px;
+}
+.sparrow {
+    float: left;
+    width: 10%;
+    text-align: right;
+    margin-bottom:5px;
+}

@@ -1,0 +1,64 @@
+page-porder {
+
+}
+.segment-md .segment-button.segment-activated {
+    border-color: #ff487b;
+    opacity: 1;
+    background-color: #FD5C2C;
+    color: #fff;
+}
+
+.segment-md .segment-button {
+    color: #FD5C2C;
+    border-bottom-style: none !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    background-color: #FFFFFF;
+}
+.PO-detail {
+    width: 100%;
+    float: left;
+    color: #FD5C2C;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px;
+}
+
+.supInfo {
+    width: 100%;
+    float: left;
+    padding:3px;
+}
+.supInfo h3 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    border-bottom: 1px solid #d4cbcb;
+}
+.supInfo p{
+
+    margin:5px;
+    /*border-bottom: 1px solid #efe9e9;*/
+
+}
+
+
+
+.addInfo {
+    float: left;
+    width: 100%;
+    padding:3px;
+}
+
+.addInfo p{
+    /*border-bottom: 1px solid #efe9e9;*/
+    margin:5px;
+}
+
+.addInfo h3{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    border-bottom: 1px solid #d4cbcb;
+}

@@ -1,0 +1,243 @@
+[
+	{
+       "id":1,
+       "order_id":"#000014",
+       "status":"Pending",
+       "Grand_total":320.11,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"12/07/2016 09:44:12 GMT+0530 ",
+       "bill":"JohnSmith",
+       "email":"JohnSmith@gmail.com",
+       "ship-to-name":"JohnSmith",
+       "billingAddress":[{
+                    	  "name":"JohnSmith",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"JohnSmith",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"T-shirt",
+       	         "price":230.00,
+       	         "status":"ordered",
+       	         "Qty":"1",
+       	         "sku":"#1243",
+       	         "Total":230.00
+       	        }],
+       "shipping-method":"Global Express Flat Rate - Fixed $25.00",
+       "payment":"Check / Money order"
+
+    },
+	{
+       "id":2,
+       "order_id":"#000019",
+       "status":"Complete",
+       "Grand_total":420.11,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"7/12/2016 10:44:12 GMT+0530",
+       "bill":"Tonrto",
+       "email":"Tonrto@gmail.com",
+       "ship-to-name":"Tonrto",
+       "billingAddress":[{
+                    	  "name":"Tonrto",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"Tonrto",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"Shirt",
+       	         "price":250.00,
+       	         "status":"ordered",
+       	         "Qty":"2",
+       	         "sku":"#James",
+       	         "Total":420.00
+       	         }],
+       "ship-to-name":"JohnSmith",
+       "billingAddress":[{
+                    	  "name":"JohnSmith",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"JohnSmith",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"T-shirt",
+       	         "price":230.00,
+       	         "status":"ordered",
+       	         "Qty":"1",
+       	         "sku":"#1243"
+       	        }],
+       "shipping-method":"Global Express Flat Rate - Fixed $25.00",
+       "payment":"Check / Money order"
+
+    },
+    {
+       "id":3,
+       "order_id":"#000324",
+       "status":"Processing",
+       "Grand_total":150.11,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"5/5/2016 01:44:12 GMT+0530",
+       "bill":"James",
+       "email":"James@gmail.com",
+       "ship-to-name":"James",
+       "billingAddress":[{
+                    	  "name":"James",
+                    	  "Phone":"9817052036",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"James",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"Spax",
+       	         "price":150.00,
+       	         "status":"ordered",
+       	         "Qty":"1",
+       	         "sku":"#2484",
+       	         "Total":150.00
+       	        }],
+       "shipping-method":"Free tax -  $0.00",
+       "payment":"Cash on delivery"
+
+    },
+    {
+       "id":4,
+       "order_id":"#STr14",
+       "status":"Pending",
+       "Grand_total":420.11,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"5/8/2016 03:00:12 GMT+0530",
+       "bill":"Lezza",
+       "email":"Lezza@gmail.com",
+       "ship-to-name":"Lezza",
+       "billingAddress":[{
+                    	  "name":"Lezza",
+                    	  "Phone":"9817052063",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"Lezza",
+                    	  "Phone":"9817052063",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"Striped-mini-dress",
+       	         "price":105.00,
+       	         "status":"ordered",
+       	         "Qty":"2",
+       	         "sku":"#jklm",
+       	         "Total":105.00
+       	        }],
+       "shipping-method":"Global Express Flat Rate - Fixed $25.00",
+       "payment":"Check / Money order"
+
+    },
+    {
+       "id":5,
+       "order_id":"#swrtevfb",
+       "status":"Complete",
+       "Grand_total":1000.11,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"12/9/2016 01:44:12 GMT+0530",
+       "bill":"JohnSmith",
+       "email":"JohnSmith@gmail.com",
+       "ship-to-name":"JohnSmith",
+       "billingAddress":[{
+                    	  "name":"alex pandian",
+                    	  "Phone":"9876543210",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"alex pandian",
+                    	  "Phone":"9876543210",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"Black-shoose",
+       	         "price":500.00,
+       	         "status":"ordered",
+       	         "Qty":"2",
+       	         "sku":"#17-1200",
+       	         "Total":1000.00
+       	        }],
+       "shipping-method":"Global Express Flat Rate - Fixed $25.00",
+       "payment":"paypal"
+
+    },
+    {
+       "id":6,
+       "order_id":"#000214",
+       "status":"Pending",
+       "Grand_total":1500.00,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"3/11/2016 05:44:12 GMT+0530",
+       "bill":"SHRA",
+       "email":"SHRA@gmail.com",
+       "ship-to-name":"SHRA",
+       "billingAddress":[{
+                    	  "name":"SHRA",
+                    	  "Phone":"9876543210",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"SHRA",
+                    	  "Phone":"9876543210",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"JEANS",
+       	         "price":500.00,
+       	         "status":"ordered",
+       	         "Qty":"3",
+       	         "sku":"#15-1020",
+       	         "Total":1500.00
+       	        }],
+       "shipping-method":"Global Express Flat Rate - Fixed $25.00",
+       "payment":"Check / Money order"
+
+    },
+    {
+       "id":7,
+       "order_id":"#520014",
+       "status":"Pending",
+       "Grand_total":330.00,
+       "purchase_point":"WebsiteStore",
+       "purchase_date":"06/4/2016 06:44:12 GMT+0530",
+       "bill":"Mr.poter",
+       "email":"Poter@gmail.com",
+       "ship-to-name":"JohnSmith",
+       "billingAddress":[{
+                    	  "name":"Mr.poter",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],
+        "shippingAddress":[{
+                    	  "name":"Mr.poter",
+                    	  "Phone":"1234567890",
+                    	  "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+                    	}],            	
+       "items":[{
+       	         "name":"Hat",
+       	         "price":110.00,
+       	         "status":"ordered",
+       	         "Qty":"3",
+       	         "sku":"#3216",
+       	         "Total":330.00
+       	        }],
+       "shipping-method":"Global Express Flat Rate - Fixed $25.00",
+       "payment":"Check / Money order"
+
+    }]

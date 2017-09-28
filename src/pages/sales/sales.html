@@ -1,0 +1,51 @@
+<!--
+  Generated template for the SalesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> <span style="color:#FD5C2C;text-align:center;">Sales</span></ion-title> 
+     
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content>
+<ion-card (click)="orderDetail(ord.id)" *ngFor="let ord of Orders">
+    <ion-card-header>
+    <p style="color: #FD5C2C;font-weight: 600;font-size: 18px;">{{ord.purchase_date | date:'dd-MM-yyyy'}}</p>
+    </ion-card-header>
+    <hr>
+   <ion-card-content>    
+    
+      <div class="ord-info">
+       <p style="font-weight:600;font-size:16px">{{ord.order_id}}</p>
+       <p>{{ord.bill | uppercase}}</p>
+       <p style="color:#0000ff;font-size:14px">Status : {{ord.status}}</p>
+      </div>
+      <div class="price-time">
+        <p>$ {{ord.Grand_total}}</p>
+        <p>{{ord.purchase_date | date:'shortTime'}}</p>
+      </div>
+      <div class="sparrow">
+        <ion-icon  style="margin-top:10px; color:#FD5C2C;"></ion-icon>
+      </div>
+    
+   </ion-card-content>
+</ion-card>
+</ion-content>
+<style type="text/css">
+.content-md{
+  background: #d2d2d2  !important;
+}
+hr{
+      margin: 0;
+}
+
+</style>

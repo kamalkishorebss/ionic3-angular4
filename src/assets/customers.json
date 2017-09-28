@@ -1,0 +1,40 @@
+[{ 
+   "id":1,
+   "name":"Rahul Katoch",
+   "email":"Rahul@gmail.com",
+   "Phone":"1234567890",
+   "Address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70",
+   "img":"assets/img/alex.jpg"   
+  },
+  {
+   "id":2, 
+   "name":"John Cris",
+   "email":"John@gmail.com",
+   "Phone":"9876543210",
+   "Address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70",   
+   "img":"assets/img/john.jpg" 
+  },
+  {
+   "id":3,
+   "name":"Alex smith",
+   "email":"smith@gmail.com",
+   "Phone":"986257890",
+   "Address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70",   
+   "img":"assets/img/alex.jpg"
+  },
+  {
+   "id":4, 
+   "name":"Arlo Dan",
+   "email":"Arlo@gmail.com",
+   "Phone":"9874516230",
+   "Address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70",   
+   "img":"assets/img/john.jpg"
+   },
+  {
+   "id":5,
+   "name":"Robert",
+   "email":"Robert@gmail.com",
+   "Phone":"4312-5789-47458",
+   "Address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70",   
+   "img":"assets/img/alex.jpg"
+  }]

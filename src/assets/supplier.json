@@ -1,0 +1,62 @@
+[
+ {
+    "id":1,
+   "name":"Cris duckbuck",
+   "email":"Rahul@gmail.com",
+   "phone":"9876543120",
+   "contact":"Cris",
+   "shipping_method":"UPC",
+   "payment_method":"Cash",
+   "company":"Spic jet",
+   "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+      
+  },
+  {
+    "id":2,
+   "name":"Charls wood",
+   "email":"Charls@gmail.com",
+   "phone":"9876873120",
+   "contact":"Charls",
+   "shipping_method":"HPC",
+   "payment_method":"Money Order",
+   "company":"Spic jet",
+   "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+      
+  },
+  {
+    "id":3,
+   "name":"Hallen",
+   "email":"Hallen@gmail.com",
+   "phone":"98767893120",
+   "contact":"Cris",
+   "shipping_method":"UPC",
+   "payment_method":"Cheque",
+   "company":"Spic jet",
+   "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+      
+  },
+  {
+    "id":4,
+   "name":"Mark zackburg",
+   "email":"zackburg@gmail.com",
+   "phone":"12345678990",
+   "contact":"Mark",
+   "shipping_method":"UPC",
+   "payment_method":"Netbanking",
+   "company":"Spic jet",
+   "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+      
+  },
+  {
+    "id":5,
+   "name":"chadwick",
+   "email":"Chadwick@gmail.com",
+   "phone":"0987-6543-120",
+   "contact":"Andrewson",
+   "shipping_method":"UPC",
+   "payment_method":"Paypal",
+   "company":"Spic jet",
+   "address":"E 51 phase 8 mohali Ajit singh Nager IndArea Pin-177401 Sec-70"
+      
+  }
+]

@@ -1,0 +1,70 @@
+<!--
+  Generated template for the CustdetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title> <h4 style="color:#FD5C2C;">Customer Detail</h4></ion-title> 
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+<ion-card>
+  <ion-card-content>
+  <p>{{Customer?.name}}</p>
+  <p><a href="Rahul@gmail.com" style="color:#20B2AA">{{Customer?.email}}</a></p>
+  </ion-card-content>
+</ion-card>
+
+
+<ion-card>
+   <ion-card-header><strong>Billing Detail</strong></ion-card-header>
+   <hr>
+   <ion-card-content>
+    <p style="text-align:left"><strong>Name</strong> : {{Customer?.name}}</p><hr>
+    <p style="text-align:left"><strong>Phone</strong> : {{Customer?.Phone}}</p><hr>
+    <p style="text-align:left"><strong>Address</strong> : {{Customer?.Address}}</p>    
+    </ion-card-content>
+</ion-card>
+
+
+<ion-card>   
+   <ion-card-header><strong>Shipping Detail</strong></ion-card-header> 
+   <hr>
+   <ion-card-content>
+    <p style="text-align:left"><strong>Name</strong> : {{Customer?.name}}</p><hr>
+    <p style="text-align:left"><strong>Phone</strong> : {{Customer?.Phone}}</p><hr>
+    <p style="text-align:left"><strong>Address</strong> : {{Customer?.Address}}</p>    
+    </ion-card-content>
+</ion-card>
+
+
+<ion-card>
+   <ion-card-header><strong>Last Order</strong></ion-card-header>
+    <hr>
+  <ion-card-content>
+    <div class="list-order">
+     <p>OrderID</p>
+     <p>Order Date</p>
+     <p>Status</p>
+     <p>Grand Total</p>
+    </div><hr>
+    <div class="list-order-p">
+     <p>#10001</p>
+     <p>29/10/2017</p>
+     <p>Pending</p>
+     <p>$1000</p>
+    </div>
+  </ion-card-content>
+ 
+</ion-card> 
+</ion-content>
+
+<style type="text/css">
+.content-md{
+  background: #d2d2d2  !important;
+}
+</style>

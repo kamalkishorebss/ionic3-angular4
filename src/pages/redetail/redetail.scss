@@ -1,0 +1,44 @@
+page-redetail {
+
+}
+p.star-rating {
+    color: green;
+    width: 100%;
+    float: left;
+}
+.review-action {
+    width: 100%;
+    float: left;
+    padding: 5px;
+    background: antiquewhite;
+    margin-top: 6px;
+    bottom: 0px;
+    position: fixed;
+}
+.review-action p{
+    margin: 5px;
+    color: #FD5C2C;
+}
+.danger {
+    display: inline-block;
+    font-size: 24px;
+    color: #FD5C2C;
+}
+.appro {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+.reject {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+.remove {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}

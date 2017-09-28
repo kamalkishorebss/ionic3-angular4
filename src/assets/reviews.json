@@ -1,0 +1,67 @@
+[
+ {
+   "id":1,
+   "sku":"17-1020",
+   "name":"Cris duckbuck",
+   "product_name":"T-shirt",
+   "post_date":"12/07/2016 09:44:12 GMT+0530",
+   "review":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+   "rating":"10",
+   "status":"pending",
+   "price-rating":5,
+   "quality_rating":5
+   
+  },{
+   "id":2,
+   "sku":"18-1020",
+   "name":"Amozon",
+   "product_name":"Black-shoose",
+   "post_date":"12/07/2016 09:44:12 GMT+0530",
+   "review":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+   "rating":"10",
+   "status":"Approve",
+   "price-rating":5,
+   "quality_rating":5
+   
+  },
+  {
+   "id":3,
+   "sku":"#51020",
+   "name":"E-bay",
+   "product_name":"Black-top",
+   "post_date":"12/07/2016 09:44:12 GMT+0530",
+   "review":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+   "rating":"10",
+   "status":"pending",
+   "price-rating":5,
+   "quality_rating":5
+   
+  },
+  {
+   "id":4,
+   "sku":"51-8020",
+   "name":"E-bay",
+   "product_name":"Jeans",
+   "post_date":"12/07/2016 09:44:12 GMT+0530",
+   "review":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+   "rating":"10",
+   "status":"Approve",
+   "price-rating":5,
+   "quality_rating":5
+   
+  },
+  {
+   "id":5,
+   "sku":"11-8020",
+   "name":"Abc-dang",
+   "product_name":"Hat",
+   "post_date":"12/07/2016 09:44:12 GMT+0530",
+   "review":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+   "rating":"10",
+   "status":"Rejected",
+   "price-rating":5,
+   "quality_rating":5
+   
+  }
+
+]

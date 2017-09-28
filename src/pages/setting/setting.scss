@@ -1,0 +1,66 @@
+page-setting {
+
+}
+
+.setting-page {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.setting-page-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 120px 0 50px 0px;
+}
+form.setting-form.ng-untouched.ng-pristine.ng-valid {
+    width: 100%;
+    float: left;
+}
+.setting-form {
+    width: 100%;
+    float: left;
+    padding: 2px;
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+.setting-form label  {
+    font-size: 16px;
+    float: left;
+    margin-left: 16px;
+    font-weight: 500;
+    }
+input{
+    width: 90%;
+    background: #fff;
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    border: 1px solid #FD5C2C;
+
+}
+.Submit-action {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.Submit-action button.Submit-btn {
+    width: 90%;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #FD5C2C;
+    font-family: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    color: #FD5C2C;
+    line-height: 1;
+    text-transform: none;
+    cursor: pointer;
+    background: transparent;
+    -webkit-appearance: button;
+}

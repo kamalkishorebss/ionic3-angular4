@@ -1,0 +1,56 @@
+page-login {
+
+}
+
+.login-page {
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: 700px;
+    
+}
+.login-page-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 120px 0 50px 0px;
+}
+form.login-form.ng-untouched.ng-pristine.ng-valid {
+    width: 100%;
+    float: left;
+}
+.log-form {
+    width: 100%;
+    float: left;
+    padding: 2px;
+    text-align: center;
+}
+input{
+    width: 90%;
+    background: #fff;
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    border: 1px solid #FD5C2C;
+
+}
+.action {
+    float: left;
+    width: 100%;
+}
+.action button.log-btn {
+    width: 90%;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #FD5C2C;
+    font-family: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    color: #FD5C2C;
+    line-height: 1;
+    text-transform: none;
+    cursor: pointer;
+    background: transparent;
+    -webkit-appearance: button;
+}

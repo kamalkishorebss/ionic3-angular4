@@ -1,0 +1,136 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="orange">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content padding style="background-color:#FD5C2C;">    
+   <ion-list inset color="orange">
+      <button ion-item (click)="dashboard()">
+         <ion-icon ios="ios-analytics-outline" md="md-analytics" class="menu-icon"></ion-icon>
+         <span style="color:#fff;">Dashboard</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="salemenu()">
+      	   <ion-icon class="menu-icon" ios="ios-cart-outline" md="md-cart"></ion-icon>
+           <span style="color:#fff;">Sales</span>
+           <ion-icon class="drop" ios="ios-arrow-dropdown" md="md-arrow-dropdown"></ion-icon>
+      </button>
+      <div class="submenu-div" *ngIf="!showHide1">
+	        <ion-list  color="orange"  (click)="sales()">
+		      <span style="color:#fff;">Sales</span>
+	        </ion-list>
+	        <hr>
+	        <ion-list  color="orange" (click)="salesOrder()">
+		      <span style="color:#fff;">Sales Orders</span>
+	        </ion-list>
+       </div> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="customer()">
+        <ion-icon ios="ios-people" class="menu-icon" md="md-people"></ion-icon>
+        <span style="color:#fff;">Customers</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="product()">
+      	<ion-icon ios="ios-apps-outline" md="md-apps" class="menu-icon"></ion-icon>
+        <span style="color:#fff;">Products</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="reviewPage()">
+      	<ion-icon ios="ios-chatboxes-outline" md="md-chatboxes" class="menu-icon"></ion-icon>
+        <span style="color:#fff;">Reviews</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="invtentmenu()">
+      	  <ion-icon ios="ios-card" md="md-card" class="menu-icon"></ion-icon>
+          <span style="color:#fff;">Inventery</span>
+          <ion-icon class="invent-icon" ios="ios-arrow-dropdown" md="md-arrow-dropdown"></ion-icon> 
+      </button> 
+       <div class="submenu-div" *ngIf="!showHide2">
+	        <ion-list  color="orange" (click)="purchase()">
+		      <span style="color:#fff;">Purchase Orders</span>
+	        </ion-list>
+	        <hr>
+	        <ion-list  color="orange" (click)="supplierPage()">
+		      <span style="color:#fff;">Supplier</span>
+	        </ion-list>
+	        <hr>
+	        <ion-list  color="orange">
+		      <span style="color:#fff;">Inventory Log</span>
+	        </ion-list>	        
+       </div>  
+    </ion-list>
+       <ion-list inset color="orange">
+      <button ion-item>
+        <ion-icon class="menu-icon" ios="ios-pulse-outline" md="md-pulse"></ion-icon>      
+        <span style="color:#fff;">Chart</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="settingPage();">
+      	  <ion-icon ios="ios-settings-outine" md="md-settings" class="menu-icon"></ion-icon>
+        <span style="color:#fff;">Setting</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item>
+      	  <ion-icon class="menu-icon" ios="ios-help-circle-outline" md="md-help-circle"></ion-icon>
+        <span style="color:#fff;">Help</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item>
+      	  <ion-icon ios="ios-information-circle" md="md-information-circle" class="menu-icon"></ion-icon>
+        <span style="color:#fff;">About Us</span>
+      </button> 
+    </ion-list>
+    <ion-list inset color="orange">
+      <button ion-item (click)="Logout()">
+      	  <ion-icon class="menu-icon" ios="ios-power" md="md-power"></ion-icon>
+        <span style="color:#fff;">Logout</span>
+      </button> 
+    </ion-list>
+   
+  </ion-content>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>
+
+<style>
+ button.item.item-block.item-md {
+    background-color: #FD5C2C !important;
+}    
+.menu-icon{
+    display: inline-block;
+    font-size: 1.5em;
+    color: #fff;
+}
+.list-md[inset] {
+    margin: -2px;
+    border-radius: 1px !important;
+    border-bottom-style: inset !important;
+}
+.drop{
+	color:white;
+	margin-left: 100px !important;
+}
+.invent-icon{
+	color:white;
+	margin-left: 80px !important;
+}
+.submenu-div {
+    float: left;
+    width: 100%;
+    margin: 15px;
+
+}
+hr{
+	height: 1px;
+	background-color: #fff;
+}
+</style>

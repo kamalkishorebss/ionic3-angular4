@@ -1,0 +1,37 @@
+page-purchase {
+
+}
+.purchase-order{
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.purchase-order.ord-info {
+    float: left;
+    width: 45%;
+}
+.purchase-order.ord-info p {
+    margin: 0px;
+    font-size: 13px;
+}
+.purchase-order.price-time {
+    width: 45%;
+    font-size: small;
+    float: left;
+}
+.purchase-order.price-time p {
+    margin: 0px;
+    font-size: 13px;
+}
+.purchase-order.sparrow {
+    float: left;
+    width: 10%;
+    text-align: right;
+}
+.orhr{
+	float:left;
+	width:100%;
+
+}
+

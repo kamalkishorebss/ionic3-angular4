@@ -1,0 +1,81 @@
+page-reviews {
+
+}
+.allItem {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+.allstar {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #dcd4d4;
+}
+p.all {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin:0px;
+    font-size:16px;
+    font-weight: 500;
+}
+p.star {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    color: #85a20f;
+    margin-left: -25px;
+
+}
+.allItem-sku {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.allItem-sku p {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+}
+.allItem-name {
+    float: left;
+    width: 100%;
+}
+.allItem-name p {
+       
+    font-size: 14px;
+    text-align: left;
+    color: grey;
+    font-weight: 600;
+}
+.allItem-desc {
+    float: left;
+    width: 100%;
+}
+.allItem-desc p {
+    font-size: 12px;
+    text-align: left;
+    color: grey;
+}
+.itemstatus {
+    float: left;
+    width: 100%;
+}
+.itemstatus p {
+    
+    font-size: 14px;
+    text-align: left;
+    color: blue;
+}
+.itemhr {
+    width: 100%;
+    float: left;
+}
+
+.segment-md .segment-button.segment-activated {
+    border-color: #FD5C2C !important;
+}
+
+

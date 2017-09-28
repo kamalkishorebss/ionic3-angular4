@@ -1,0 +1,73 @@
+<!--
+  Generated template for the RedetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title><span style="color:#FD5C2C;text-align:center;">Review Detail</span></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-row>  
+  <ion-card>
+     <ion-card-header>Prefect for me</ion-card-header>
+     <ion-card-content>
+     <p style="float:left;font-size:14px;color:gray;">
+     {{re?.review}}<p>
+     </ion-card-content>     
+  </ion-card>
+  
+  <ion-card>      
+      <ion-card-content>
+      <p class="star-rating">
+      <rating [(ngModel)]="rate" readOnly="false" max="5" emptyStarIconName="star-outline" 
+               halfStarIconName="star-half" starIconName="star" nullable="false" (ngModelChange)="onModelChange($event)">
+       </rating></p>
+        <p style="float:left;font-size:16px; font-weight:600;width: 100%; color:#FD5C2C;">Reviewed By : <strong style="color:#000">{{re?.name}}</strong><p>
+        <p style="float:left;font-size:12px;color:gray;">Posted On : {{re?.post_date}}</p>
+      </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+     <ion-card-header>Product Info</ion-card-header>
+     <ion-card-content>
+     <p style="text-align:left;margin:  5px;"><strong>Product Name</strong> : {{re?.product_name}}</p><hr>
+     <p style="text-align:left; margin: 5px;"><strong>Sku</strong> : {{re?.sku}}</p><hr>
+     <p style="text-align:left; margin: 5px;"><strong>Status</strong> : {{re?.status}}</p>
+     </ion-card-content>     
+  </ion-card>
+  
+</ion-row>
+  
+  <div class="review-action">
+   <div class="appro">
+   	  <ion-icon class="danger" ios="ios-checkmark-circle" md="md-checkmark-circle"></ion-icon>
+      <p>Approve</p>
+   </div>
+   <div class="reject">
+   	 <ion-icon class="danger" ios="ios-close-circle" md="md-close-circle"></ion-icon>
+     <p>Reject</p>
+   </div>
+   <div class="remove">
+   	  <ion-icon ios="ios-trash" md="md-trash" class="danger"></ion-icon>
+      <p>Delete</p>
+    </div>
+  </div>
+</ion-content>
+<style type="text/css">
+.card-header-md {
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+    border-bottom: 1px solid #efeeee !important;
+}
+.content-md{
+  background: #d2d2d2 !important;
+}
+
+</style>

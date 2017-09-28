@@ -1,0 +1,40 @@
+<!--
+  Generated template for the SupplierdetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title> <h4 style="color:#FD5C2C;">Supplier Detail</h4></ion-title> 
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+<ion-card>
+   <ion-card-header><strong>Supplier Info</strong></ion-card-header>
+   
+   <ion-card-content>
+    <p style="text-align:left; margin: 14px;"><strong>Name</strong> : {{supplier?.name}}</p><hr>
+    <p style="text-align:left; margin: 14px;"><strong>Email</strong> : {{supplier?.email}}</p><hr>
+    <p style="text-align:left; margin: 14px;"><strong>Compnany</strong> : {{supplier?.company}}</p><hr>
+    <p style="text-align:left; margin: 14px;"><strong>Contact</strong> : {{supplier?.contact}}</p><hr>
+    <p style="text-align:left; margin: 14px;"><strong>Shipping Method</strong> : {{supplier?.shipping_method}}</p><hr> 
+    <p style="text-align:left; margin: 14px;"><strong>Payment Method</strong> : {{supplier?.payment_method}}</p><hr>
+    <p style="text-align:left; margin: 14px;"><strong>Phone</strong> : {{supplier?.phone}}</p><hr>
+    <p style="text-align:left; margin: 14px;"><strong>Address</strong> : {{supplier?.address}}</p>    
+    </ion-card-content>
+</ion-card>
+
+
+
+</ion-content>
+<style type="text/css">
+.card-header-md {
+    
+    border-bottom: 1px solid #ccbebe !important;
+}
+.content-md{
+  background: #d2d2d2  !important;
+}</style>

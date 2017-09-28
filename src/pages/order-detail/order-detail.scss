@@ -1,0 +1,171 @@
+page-order-detail {
+
+}
+.orderID {
+    width: 100%;
+    float: left;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 1px 0 0 0;
+    background: linear-gradient(white,#dcd9d9);
+}
+
+.orderID span {
+    color: #000000;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ro{
+	width:100%;
+	float:left;
+}
+.ordDetail {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+.ordDetail strong{
+	font-size:13px;
+}
+.ordDetailtitle {
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+.value {
+    float: left;
+    width: 75%;
+    text-align: left;
+}
+.value p{
+	margin:2px 0px 0 0;
+	font-size:13px;
+}
+
+.orderID-billing_title{
+     width: 100%;
+    float: left;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 1px 0 0 0;
+    background: linear-gradient(white,#dcd9d9);	
+}
+
+.orderID-billing_title span {
+    color: #000000;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Billing-Detail {
+	width: 100%;
+	float:left;
+	padding:2px;
+}
+.Billing-Detail .title {
+	width: 25%;
+	text-align: right;
+	float: left;
+	display: inline-block;
+}
+.Billing-Detail strong{
+	font-size:13px;
+}
+.Billing-Detail .value {
+	width: 75%;
+	text-align: left;
+	padding-left: 5px;
+}
+.Billing-Detail p {
+	margin: 0;
+	font-size: 13px;
+}
+
+
+
+.orderID-shipping_title{
+     width: 100%;
+    float: left;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 1px 0 0 0;
+    background: linear-gradient(white,#dcd9d9);	
+}
+
+.orderID-shipping_title span {
+    color: #000000;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Shipping-Detail {
+	width: 100%;
+	float:left;
+	padding:2px;
+}
+.Shipping-Detail .title {
+	width: 25%;
+	text-align: right;
+	float: left;
+	display: inline-block;
+}
+.Shipping-Detail strong{
+	font-size:13px;
+}
+.Shipping-Detail .value {
+	width: 75%;
+	text-align: left;
+	padding-left: 5px;
+}
+.Shipping-Detail p {
+	margin: 0;
+	font-size: 13px;
+}
+
+
+
+.p_title{
+     width: 100%;
+    float: left;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 1px 0 0 0;
+    background: linear-gradient(white,#dcd9d9);	
+}
+
+.p_title span {
+    color: #000000;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.p-Detail {
+	width: 100%;
+	float:left;
+	padding:2px;
+}
+.p-Detail .title {
+	width: 25%;
+	text-align: right;
+	float: left;
+	display: inline-block;
+}
+.p-Detail strong{
+	font-size:12px;
+}
+.p-Detail .value {
+	width: 75%;
+	text-align: left;
+	padding-left: 5px;
+}
+.p-Detail p {
+	margin: 0;
+	font-size: 12px;
+}

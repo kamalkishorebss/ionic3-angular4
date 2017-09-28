@@ -1,0 +1,682 @@
+[
+   {
+    "id": 1,
+    "sku": "17-1020",
+    "name": "Blue-jean",
+    "attribute_set_id": 4,
+    "price": 350.00,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2017-04-28 07:57:39",
+    "updated_at": "2017-04-28 07:57:39",
+    "weight": 5.6,
+    "extension_attributes": [],
+    "product_links": [],
+    "options": [],
+    "img":"assets/img/Blue-jean.jpg",
+    "media_gallery_entries": [
+        {
+            "id": 1,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [],
+            "file": "/1/5/154_2.jpg"
+        },
+        {
+            "id": 3,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [],
+            "file": "/1/7/172_3.jpg"
+        },
+        {
+            "id": 434,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail",
+                "swatch_image"
+            ],
+            "file": "/1/_/1_1.jpg"
+        }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+        {
+            "attribute_code": "description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "11.5000"
+        },
+        {
+            "attribute_code": "meta_title",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_keyword",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_description",
+            "value": "Sequin Heart Tee Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!\r\nSubtle scoop necklinePullover StyleSequin embellished heart on front in Brilliant Red Sequins outli"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "news_from_date",
+            "value": "2017-01-21 00:00:00"
+        },
+        {
+            "attribute_code": "news_to_date",
+            "value": "2017-02-20 00:00:00"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "5"
+            ]
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "sequin-heart-tee"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "2"
+        },
+        {
+            "attribute_code": "sw_featured",
+            "value": "0"
+        }
+    ]
+},
+{
+    "id": 2,
+    "sku": "17-1022",
+    "name": "T-Shirt",
+    "attribute_set_id": 4,
+    "price": 520.00,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2017-04-28 07:57:39",
+    "updated_at": "2017-04-28 07:57:39",
+    "weight": 5.6,
+    "extension_attributes": [],
+    "product_links": [],
+    "options": [],
+    "img":"assets/img/T-shirt.jpg",
+    "media_gallery_entries": [
+        {
+            "id": 1,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [],
+            "file": "/1/5/154_2.jpg"
+        },
+        {
+            "id": 3,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [],
+            "file": "/1/7/172_3.jpg"
+        },
+        {
+            "id": 434,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail",
+                "swatch_image"
+            ],
+            "file": "/1/_/1_1.jpg"
+        }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+        {
+            "attribute_code": "description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "11.5000"
+        },
+        {
+            "attribute_code": "meta_title",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_keyword",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_description",
+            "value": "Sequin Heart Tee Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!\r\nSubtle scoop necklinePullover StyleSequin embellished heart on front in Brilliant Red Sequins outli"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "news_from_date",
+            "value": "2017-01-21 00:00:00"
+        },
+        {
+            "attribute_code": "news_to_date",
+            "value": "2017-02-20 00:00:00"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "5"
+            ]
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "sequin-heart-tee"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "2"
+        },
+        {
+            "attribute_code": "sw_featured",
+            "value": "0"
+        }
+    ]
+},
+{
+    "id": 3,
+    "sku": "18-1020",
+    "name": "Shirt",
+    "attribute_set_id": 4,
+    "price": 150.00,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2017-04-28 07:57:39",
+    "updated_at": "2017-04-28 07:57:39",
+    "weight": 5.6,
+    "extension_attributes": [],
+    "product_links": [],
+    "options": [],
+    "img":"assets/img/shirt.jpg",
+    "media_gallery_entries": [
+        {
+            "id": 1,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [],
+            "file": "/1/5/154_2.jpg"
+        },
+        {
+            "id": 3,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [],
+            "file": "/1/7/172_3.jpg"
+        },
+        {
+            "id": 434,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail",
+                "swatch_image"
+            ],
+            "file": "/1/_/1_1.jpg"
+        }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+        {
+            "attribute_code": "description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "11.5000"
+        },
+        {
+            "attribute_code": "meta_title",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_keyword",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_description",
+            "value": "Sequin Heart Tee Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!\r\nSubtle scoop necklinePullover StyleSequin embellished heart on front in Brilliant Red Sequins outli"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "news_from_date",
+            "value": "2017-01-21 00:00:00"
+        },
+        {
+            "attribute_code": "news_to_date",
+            "value": "2017-02-20 00:00:00"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "5"
+            ]
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "sequin-heart-tee"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "2"
+        },
+        {
+            "attribute_code": "sw_featured",
+            "value": "0"
+        }
+    ]
+},
+{
+    "id": 4,
+    "sku": "jte25",
+    "name": "Black-Shoose",
+    "attribute_set_id": 4,
+    "price": 300.00,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2017-04-28 07:57:39",
+    "updated_at": "2017-04-28 07:57:39",
+    "weight": 5.6,
+    "extension_attributes": [],
+    "product_links": [],
+    "options": [],
+    "img":"assets/img/blackshoose.jpg",
+    "media_gallery_entries": [
+        {
+            "id": 1,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [],
+            "file": "/1/5/154_2.jpg"
+        },
+        {
+            "id": 3,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [],
+            "file": "/1/7/172_3.jpg"
+        },
+        {
+            "id": 434,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail",
+                "swatch_image"
+            ],
+            "file": "/1/_/1_1.jpg"
+        }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+        {
+            "attribute_code": "description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "11.5000"
+        },
+        {
+            "attribute_code": "meta_title",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_keyword",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_description",
+            "value": "Sequin Heart Tee Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!\r\nSubtle scoop necklinePullover StyleSequin embellished heart on front in Brilliant Red Sequins outli"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "news_from_date",
+            "value": "2017-01-21 00:00:00"
+        },
+        {
+            "attribute_code": "news_to_date",
+            "value": "2017-02-20 00:00:00"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "5"
+            ]
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "sequin-heart-tee"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "2"
+        },
+        {
+            "attribute_code": "sw_featured",
+            "value": "0"
+        }
+    ]
+},
+{
+    "id": 5,
+    "sku": "11-1020",
+    "name": "Black-Top",
+    "attribute_set_id": 4,
+    "price": 250.00,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2017-04-28 07:57:39",
+    "updated_at": "2017-04-28 07:57:39",
+    "weight": 5.6,
+    "extension_attributes": [],
+    "product_links": [],
+    "options": [],
+    "img":"assets/img/black-top.jpg",
+    "media_gallery_entries": [
+        {
+            "id": 1,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [],
+            "file": "/1/5/154_2.jpg"
+        },
+        {
+            "id": 3,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [],
+            "file": "/1/7/172_3.jpg"
+        },
+        {
+            "id": 434,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail",
+                "swatch_image"
+            ],
+            "file": "/1/_/1_1.jpg"
+        }
+    ],
+    "tier_prices": [],
+    "custom_attributes": [
+        {
+            "attribute_code": "description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!</p>\r\n<p>Subtle scoop neckline<br />Pullover Style<br />Sequin embellished heart on front in&nbsp;Brilliant Red Sequins outlined in Silver Sequins<br />Three-quarter length sleeves<br />Loose fit<br />Hits at hip<br />Made from soft,&nbsp;thin&nbsp;Rayon&nbsp;material&nbsp;<br />A relaxed silhouette for a comfortable fit</p>"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "11.5000"
+        },
+        {
+            "attribute_code": "meta_title",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_keyword",
+            "value": "Sequin Heart Tee"
+        },
+        {
+            "attribute_code": "meta_description",
+            "value": "Sequin Heart Tee Add a dazzling appeal to your tee collection with our sequin heart top. Be the cutest thing on Valentines Day and every day of the year!!\r\nSubtle scoop necklinePullover StyleSequin embellished heart on front in Brilliant Red Sequins outli"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "news_from_date",
+            "value": "2017-01-21 00:00:00"
+        },
+        {
+            "attribute_code": "news_to_date",
+            "value": "2017-02-20 00:00:00"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "5"
+            ]
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "sequin-heart-tee"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "/1/_/1_1.jpg"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "2"
+        },
+        {
+            "attribute_code": "sw_featured",
+            "value": "0"
+        }
+    ]
+}
+]
